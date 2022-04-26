@@ -4,6 +4,6 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan("org.wproject.encrypt")
+@ComponentScan("org.wproject.encrypt.starter")
 public class EncryptAutoConfiguration {
 }
