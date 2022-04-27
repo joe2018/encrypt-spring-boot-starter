@@ -2,9 +2,8 @@ package org.wproject.encrypt.starter.prop;
 
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.stereotype.Component;
 
-@Component
+
 @ConfigurationProperties(prefix = "spring.encrypt")
 public class EncryptProperties {
 
