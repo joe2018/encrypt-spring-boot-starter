@@ -1,4 +1,4 @@
-package org.wproject.encrypt.starter.utils;
+package org.wproject.encrypt.starter.prop;
 
 
 import org.springframework.boot.context.properties.ConfigurationProperties;

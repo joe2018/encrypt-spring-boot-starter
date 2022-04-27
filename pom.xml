@@ -10,9 +10,9 @@
     </parent>
     <groupId>org.wproject</groupId>
     <artifactId>encrypt</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>encrypt</name>
-    <description>Demo project for Spring Boot</description>
+    <version>0.0.1</version>
+    <name>encrypt-spring-boot-starter</name>
+    <description>SpringBoot加密工具类</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>

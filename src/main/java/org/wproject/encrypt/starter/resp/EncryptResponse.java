@@ -1,4 +1,4 @@
-package org.wproject.encrypt.starter;
+package org.wproject.encrypt.starter.resp;
 
 
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -11,10 +11,10 @@ import org.springframework.http.server.ServerHttpRequest;
 import org.springframework.http.server.ServerHttpResponse;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice;
-import org.wproject.encrypt.starter.bean.RespBean;
+import org.wproject.encrypt.starter.model.RespBean;
 import org.wproject.encrypt.starter.utils.AESUtils;
-import org.wproject.encrypt.starter.utils.Encrypt;
-import org.wproject.encrypt.starter.utils.EncryptProperties;
+import org.wproject.encrypt.starter.anno.Encrypt;
+import org.wproject.encrypt.starter.prop.EncryptProperties;
 
 @EnableConfigurationProperties(EncryptProperties.class)
 @ControllerAdvice

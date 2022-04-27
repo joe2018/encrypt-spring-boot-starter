@@ -1,4 +1,4 @@
-package org.wproject.encrypt.starter;
+package org.wproject.encrypt.starter.req;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,8 +10,8 @@ import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.servlet.mvc.method.annotation.RequestBodyAdviceAdapter;
 import org.wproject.encrypt.starter.utils.AESUtils;
-import org.wproject.encrypt.starter.utils.Decrypt;
-import org.wproject.encrypt.starter.utils.EncryptProperties;
+import org.wproject.encrypt.starter.anno.Decrypt;
+import org.wproject.encrypt.starter.prop.EncryptProperties;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;

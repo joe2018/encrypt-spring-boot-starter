@@ -1,4 +1,4 @@
-package org.wproject.encrypt.starter.bean;
+package org.wproject.encrypt.starter.model;
 
 public class RespBean {
     private Integer status;
